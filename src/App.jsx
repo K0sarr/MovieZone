@@ -4,7 +4,7 @@ import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 
 
-const API_URL = `http://omdbapi.com?apikey=${import.meta.env.VITE_RAPID_API_KEY}`;
+const API_URL = `https://omdbapi.com?apikey=${import.meta.env.VITE_RAPID_API_KEY}`;
 
 
 const App = () => {
