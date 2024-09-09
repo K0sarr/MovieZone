@@ -11,6 +11,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
+  //Fetch omdbApi
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
@@ -23,6 +24,12 @@ const App = () => {
   }, [])
 
 
+  // Function to be able to search with Enter key..
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      searchMovies(searchTerm);
+    }
+  };
 
   return (
     <div className='app'>
@@ -31,7 +38,8 @@ const App = () => {
         <input 
           placeholder='Search for movies'
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          // Using both the search icon and Enter keybutton for search.
+          onChange={(e) => setSearchTerm(e.target.value)} onKeyDown={handleKeyDown}
         />
         <img 
           src={SearchIcon}
