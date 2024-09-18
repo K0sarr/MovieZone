@@ -1,17 +1,18 @@
 # A Mini React Movie Application🎬
-![Movies](https://github.com/user-attachments/assets/977c4f17-8f71-4898-a7e4-011966ef29c1) 
+![Movies](https://github.com/user-attachments/assets/a86acfd1-9013-4a15-9bf9-18c9d40375f3)
+
 
 
  
 ## Overview
-MoviePedia is a simple and interactive movie search application built with React and the OMDb API. It allows users to search for movies and view detailed information such as the title, year of release, and poster image.
+MovieZone is a simple and interactive movie search application built with React and the OMDb API. It allows users to search for movies and view detailed information such as the title, year of release, and poster image.
 
 ## Features
 + Search Movies: Find movies by entering keywords or titles in the search bar.
 + View Details: Display key information about movies including the title, release year, and poster.
 + Interactive UI: Clean and responsive design for easy navigation and use.
 
-## [Live Website](https://moviepediakos.netlify.app/)
+## [Live Website](https://moviezonekos.netlify.app/)
   
   ## Tools/Languages
 
