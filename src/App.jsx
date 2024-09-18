@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <div className='app'>
-      <h1>MoviePedia</h1>
+      <h1>MovieZone</h1>
       <div className='search'>
         <input 
           placeholder='Search for movies'
